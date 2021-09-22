@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="mediaquery.css" rel="stylesheet" type="text/css">
+
+    <title>Cosmetics E-Commerce</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark navbar-header">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand navbar-menu-logo" href="index.html">
+                <img src="logo.png" alt="logo" width="147px" height="67px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-menu navbar-menu-links" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROMOTIONS</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-menu navbar-menu-icons" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="far fa-user-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- </header> -->
+
+    <!-- section main content -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <!-- left filters -->
+
+            <div class="col-2 section-filter">
+
+                <h3>Filters</h3>
+
+                <p>Categories</p>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="check1">
+                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="" checked>Lipsticks
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check2">
+                        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="" checked>Shadow
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check3">
+                        <input type="checkbox" class="form-check-input" id="check3" name="option3" value="" checked>Accessories
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check4">
+                        <input type="checkbox" class="form-check-input" id="check4" name="option4" value="" checked>Brushes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check5">
+                        <input type="checkbox" class="form-check-input" id="check5" name="option5" value="" checked>Base
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check6">
+                        <input type="checkbox" class="form-check-input" id="check6" name="option6" value="" checked>Hair
+                    </label>
+                </div>
+
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="sel1">Price Order</label>
+                        <select class="form-control" id="sel1" name="sellist1">
+                        <option>Below 500</option>
+                        <option>Above 1000</option>
+                        <option>Low to High</option>
+                        <option>High to Low</option>
+                      </select>
+                    </div>
+                </form>
+
+                <p>Brands</p>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="check7">
+                        <input type="checkbox" class="form-check-input" id="check7" name="option7" value="" checked>Ruby Rose
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check8">
+                        <input type="checkbox" class="form-check-input" id="check8" name="option8" value="" checked>Kylie Cosmetics
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check9">
+                        <input type="checkbox" class="form-check-input" id="check9" name="option9" value="" checked>Fenty Beauty
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check10">
+                        <input type="checkbox" class="form-check-input" id="check10" name="option10" value="" checked>Mac
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check11">
+                        <input type="checkbox" class="form-check-input" id="check11" name="option11" value="" checked>Eudora
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="check12">
+                        <input type="checkbox" class="form-check-input" id="check12" name="option12" value="" checked>Maybeline
+                    </label>
+                </div>
+
+            </div>
+
+            <!-- vertical line -->
+
+            <div class="col-1 vline">
+
+            </div>
+
+            <!-- photo card -->
+
+            <div class="col-9 mb-5">
+
+                <div class="row photocard-section">
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                        <div class="card photocard">
+                            <img class="card-img-top" src="lipstick.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Lipstick</h4>
+                                <p class="card-text">Rs 499/-</p>
+                                <button type="button" class="btn cart-button"><i class="fas fa-plus"></i> ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-2 mb-2 button-endpage">
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                        <button type="button" class="btn">Load more</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="row section-footer">
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <h3>Social networks</h3>
+
+            <span style="font-size: 3em;"><i class="fab fa-facebook"></i></span>
+            <span style="font-size: 3em;"><i class="fab fa-instagram"></i></span>
+            <span style="font-size: 3em;"><i class="fab fa-whatsapp"></i></span>
+
+            <br/>
+
+            <b>Blackwins Tech Solution</b>
+            <br/>
+            <p>Tamil nadu, India</p>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <h3>Categories</h3>
+            <p>Skin</p>
+            <p>Shadows</p>
+            <p>Eyelashes</p>
+            <p>Blush</p>
+            <p>Illuminators</p>
+            <p>Lipstick</p>
+            <p>Brushes</p>
+            <p>Base</p>
+            <p>Hair</p>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <h3>Partner brands</h3>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+            <p>Ruby Rose</p>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <h3>Payment methods</h3>
+            <img src="payment.png" alt="payment image" width="280px" height="58px" class="payment-image">
+        </div>
+
+    </footer>
+
+    <div class="row copyright">
+
+        <div class="offset-xl-3 col-xl-6 offset-xl-3 offset-lg-3 col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-xs-12">
+            <p>Copyrights <i class="far fa-copyright "></i> Blackwins Tech Team. 2021. All rights reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
